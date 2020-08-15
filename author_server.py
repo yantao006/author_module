@@ -37,9 +37,9 @@ class S(BaseHTTPRequestHandler):
 
         request_token = post_data.decode('utf-8')
         if request_token in whitelist_set:
-            res = str(True)
+            res = str(2)
         else:
-            res = str(False)
+            res = str(0)
         #res = "You Input: " + post_data.decode('utf-8')
 
         self.do_HEAD()

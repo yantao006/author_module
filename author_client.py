@@ -1,3 +1,4 @@
+#coding: utf-8
 import requests
 
 def author_req(ip_str, token):
